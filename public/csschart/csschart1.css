@@ -1,0 +1,26 @@
+
+.container h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #06BBCC;
+}
+
+
+
+.chart{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 20px; /* Khoảng cách dưới của mỗi biểu đồ */
+    padding: 2rem;
+    border: 1px solid orange;
+    border-radius: 1rem;
+    background: rgb(242, 246, 244);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.2);
+}
+
+.container1 .chart:not(:last-child) {
+  margin-right: 20px; /* Khoảng cách bên phải của các biểu đồ trong container1, trừ biểu đồ cuối cùng */
+}
+  
+  
