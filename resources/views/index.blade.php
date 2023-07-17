@@ -66,7 +66,7 @@
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Giới thiệu</a>
                   <div class="dropdown-menu fade-down m-0">
                       <a href="{{ route('showAbout') }}" class="dropdown-item">Lịch sử hình thành</a>
-                      <a href="testimonial.html" class="dropdown-item">Cơ cấu tổ chức</a>
+                      <a href="{{ route('orgview') }}" class="dropdown-item">Cơ cấu tổ chức</a>
                   </div>
               </div>
               <div class="nav-item dropdown">

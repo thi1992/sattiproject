@@ -55,37 +55,37 @@
               <span><h2 class="m-0 text-primary">P</h2></span>
           </div> 
       </a>
-    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="{{ route('Viewhome') }}" class="nav-item nav-link active">Trang chủ</a>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Giới thiệu</a>
-                <div class="dropdown-menu fade-down m-0">
-                    <a href="{{ route('showAbout') }}" class="dropdown-item">Lịch sử hình thành</a>
-                    <a href="testimonial.html" class="dropdown-item">Cơ cấu tổ chức</a>
-                </div>
-            </div>
-            <div class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kết quả đào tạo</a>
-              <div class="dropdown-menu fade-down m-0">
-                  <a href="{{ route('resultTraining') }}" class="dropdown-item">Kết quả đào tạo 2023</a>
-                  <a href="{{ route('showData') }}" class="dropdown-item">Tra cứu lịch sử đào tạo</a>
+      <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto p-4 p-lg-0">
+              <a href="{{ route('Viewhome') }}" class="nav-item nav-link active">Trang chủ</a>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Giới thiệu</a>
+                  <div class="dropdown-menu fade-down m-0">
+                      <a href="{{ route('showAbout') }}" class="dropdown-item">Lịch sử hình thành</a>
+                      <a href="testimonial.html" class="dropdown-item">Cơ cấu tổ chức</a>
+                  </div>
               </div>
-          </div>
-            <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Thông tin đào tạo</a>
+              <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kết quả đào tạo</a>
                 <div class="dropdown-menu fade-down m-0">
-                    <a href="team.html" class="dropdown-item">Lịch đào tạo</a>
-                    <a href="testimonial.html" class="dropdown-item">Thông tin các khóa học</a>
-                    <a href="404.html" class="dropdown-item">Tài liệu và phần mềm</a>
+                    <a href="{{ route('resultTraining') }}" class="dropdown-item">Kết quả đào tạo 2023</a>
+                    <a href="{{ route('showData') }}" class="dropdown-item">Tra cứu lịch sử đào tạo</a>
                 </div>
             </div>
-            <a href="{{ route('showAbout') }}" class="nav-item nav-link">Liên hệ</a>
-        </div>
-    </div>
+              <div class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Thông tin đào tạo</a>
+                  <div class="dropdown-menu fade-down m-0">
+                      <a href="team.html" class="dropdown-item">Lịch đào tạo</a>
+                      <a href="testimonial.html" class="dropdown-item">Thông tin các khóa học</a>
+                      <a href="404.html" class="dropdown-item">Tài liệu và phần mềm</a>
+                  </div>
+              </div>
+              <a href="{{ route('showAbout') }}" class="nav-item nav-link">Liên hệ</a>
+          </div>
+      </div>
   </nav>
     <!-- Navbar End -->
 

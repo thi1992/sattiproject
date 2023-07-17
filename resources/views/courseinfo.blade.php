@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <title>SATTI</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -25,12 +28,10 @@
 
     <!-- Template Stylesheet -->
     <link href="./cssWelcome/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./csscourseinfo/stylecourseinfo.css">
 
-    <!-- CSS Chart -->
-    <link rel="stylesheet" href="./csschart/csschart1.css">
-
-    <title>SATTI - Result</title>
 </head>
+
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -87,106 +88,60 @@
       </div>
     </nav>
     <!-- Navbar End -->
-
-    <!-- Chart Start -->
     <div class="container">
-        <h2>SATTI TRAINING RESULT 2023</h2>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="chart">
-              <canvas id="barchart1"></canvas>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            <div class="chart">
-              <canvas id="barchart2"></canvas>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="chart">
-              <canvas id="barchart3"></canvas>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="chart">
-              <canvas id="doughnut4"></canvas>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-              <div class="chart">
-                <canvas id="barchart5"></canvas>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="chart">
-                <canvas id="barchart6"></canvas>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="chart">
-                <canvas id="doughnut7"></canvas>
-              </div>
-            </div>
-          </div>
+        <button class="button">
+            <span class="button_lg">
+                <span class="button_sl"></span>
+                <span class="button_text">Download Cataloge</span>
+            </span>
+        </button>
     </div>
-         
-    <!-- Chart End -->
+
+        
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-3 mt-3 wow fadeIn" data-wow-delay="0.1s">
-      <div class="container py-1">
-          <div class="row g-5">
-              <div class="col-lg-3 col-md-6">
-                  <h4 class="text-white mb-3">Quick Link</h4>
-                  <a class="btn btn-link" href="">Trang chủ</a>
-                  <a class="btn btn-link" href="">Lịch học</a>
-                  <a class="btn btn-link" href="">Tra cứu</a>
-                  <a class="btn btn-link" href="">Khóa học</a>
-                  <a class="btn btn-link" href="">Liên hệ</a>
-              </div>
-              <div class="col-lg-6 col-md-6">
-                  <h4 class="text-white mb-3">Liên hệ</h4>
-                  <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Phòng 312, trung tâm phát triển nhân tài SEVT</p>
-                  <p class="mb-2"><i class="fa fa-user-tie me-3"></i>Nguyễn Văn Thi</p>
-                  <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>036.372.3301</p>
-                  <p class="mb-2"><i class="fa fa-envelope me-3"></i>vanthi.ng@samsung.com</p>
-                  
-              </div>
-                            
-          </div>
-      </div>
-      <div class="container">
-          <div class="copyright">
-              <div class="row">
-                  <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
-                      &copy; Website được phát triển bởi Nguyễn Văn Thi - Phòng đào tạo kỹ thuật và công nghệ cao SATTI.
+        <div class="container py-1">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">Trang chủ</a>
+                    <a class="btn btn-link" href="">Lịch học</a>
+                    <a class="btn btn-link" href="">Tra cứu</a>
+                    <a class="btn btn-link" href="">Khóa học</a>
+                    <a class="btn btn-link" href="">Liên hệ</a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Liên hệ</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Phòng 312, trung tâm phát triển nhân tài SEVT</p>
+                    <p class="mb-2"><i class="fa fa-user-tie me-3"></i>Nguyễn Văn Thi</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>036.372.3301</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>vanthi.ng@samsung.com</p>
+                    
+                </div>
+                              
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center text-md-start mb-3 mb-md-0">
+                        &copy; Website được phát triển bởi Nguyễn Văn Thi - Phòng đào tạo kỹ thuật và công nghệ cao SATTI.
 
-                      <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                      
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- Footer End -->
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
 
 
-      <!-- Back to Top -->
-      <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-      
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="./csschart/chart1.js"></script>
-    <script src="./csschart/chart2.js"></script>
-    <script src="./csschart/chart3.js"></script>
-    <script src="./csschart/chart4.js"></script>
-    <script src="./csschart/chart5.js"></script>
-    <script src="./csschart/chart6.js"></script>
-    <script src="./csschart/chart7.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -197,5 +152,8 @@
 
     <!-- Template Javascript -->
     <script src="./cssWelcome/js/main.js"></script>
+
+
 </body>
+
 </html>

@@ -22,8 +22,8 @@ return new class extends Migration
             $table->string ("class_c")->nullable();
             $table->string ("category_c")->nullable();
             $table->string ("type_c")->nullable();
-            $table->string ("year_c")->nullable();
-            $table->string ("month_c")->nullable();
+            $table->string('year_c')->nullable();
+            $table->string('month_c')->nullable();
             $table->string ("week_c")->nullable();
             $table->string ("date_c")->nullable();
             $table->string ("training_place_c")->nullable();
