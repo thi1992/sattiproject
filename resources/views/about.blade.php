@@ -12,12 +12,11 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="./cssCommon/fontRobo.css" rel="stylesheet">
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="./cssCommon/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.10.0_css_all.css" rel="stylesheet">
+    <link href="./cssCommon/cdn.jsdelivr.net_npm_bootstrap-icons@1.4.1_font_bootstrap-icons.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./cssWelcome/css/bootstrap.min.css" rel="stylesheet">
@@ -26,8 +25,8 @@
     <link href="./cssWelcome/css/style.css" rel="stylesheet">
 
     <!-- CSS Style About timeline -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css" />
+    <link rel="stylesheet" href="./cssabout/unpkg.com_swiper@10.0.4_swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./cssabout/cdnjs.cloudflare.com_ajax_libs_Swiper_3.4.2_css_swiper.min.css" />
     <link href="./cssabout/styleabout.css" rel="stylesheet">
 
 
@@ -141,8 +140,8 @@
     <!-- Timeline End -->
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./cssCommon/js/code.jquery.com_jquery-3.4.1.min.js"></script>
+    <script src="./cssCommon/js/cdn.jsdelivr.net_npm_bootstrap@5.0.0_dist_js_bootstrap.bundle.js"></script>
     <script src="./cssWelcome/lib/wow/wow.min.js"></script>
     <script src="./cssWelcome/lib/easing/easing.min.js"></script>
     <script src="./cssWelcome/lib/waypoints/waypoints.min.js"></script>
@@ -152,7 +151,7 @@
     <script src="./cssWelcome/js/main.js"></script>
 
     <!-- Template timeline -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script>
+    <script src="./cssabout/js/cdnjs.cloudflare.com_ajax_libs_Swiper_3.4.2_js_swiper.min.js"></script>
     <script src="./cssabout/styleabout.js"></script>
 
 

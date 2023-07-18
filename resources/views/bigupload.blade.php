@@ -23,7 +23,6 @@
         <form action="{{ route('chunking') }}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="mb-3">
-            <label for="" class="form-label">Chon file</label>
             <input type="file" name="csvfile" id="" class="form-control" placeholder="">
             @error('csvfile')
                 <small>{{ $message }}</small>

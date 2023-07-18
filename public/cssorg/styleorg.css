@@ -1,14 +1,28 @@
-    html,
-    body,
-    .container {
-    height: 100%;
-    }
 
-    body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    background-color: white;
-    }
+  .container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 960px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+
+  body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  background-color: white;
+  }
 
   .card {
     width: 200px;
@@ -97,3 +111,4 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+

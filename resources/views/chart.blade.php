@@ -9,12 +9,11 @@
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="./cssCommon/fontRobo.css" rel="stylesheet">
+
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="./cssCommon/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.10.0_css_all.css" rel="stylesheet">
+    <link href="./cssCommon/cdn.jsdelivr.net_npm_bootstrap-icons@1.4.1_font_bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="./cssWelcome/lib/animate/animate.min.css" rel="stylesheet">
@@ -179,7 +178,7 @@
       <!-- Back to Top -->
       <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
       
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./csschart/cdn.jsdelivr.net_npm_chart.js"></script>
     <script src="./csschart/chart1.js"></script>
     <script src="./csschart/chart2.js"></script>
     <script src="./csschart/chart3.js"></script>
@@ -187,9 +186,10 @@
     <script src="./csschart/chart5.js"></script>
     <script src="./csschart/chart6.js"></script>
     <script src="./csschart/chart7.js"></script>
+    
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./cssCommon/js/code.jquery.com_jquery-3.4.1.min.js"></script>
+    <script src="./cssCommon/js/cdn.jsdelivr.net_npm_bootstrap@5.0.0_dist_js_bootstrap.bundle.js"></script>
     <script src="./cssWelcome/lib/wow/wow.min.js"></script>
     <script src="./cssWelcome/lib/easing/easing.min.js"></script>
     <script src="./cssWelcome/lib/waypoints/waypoints.min.js"></script>

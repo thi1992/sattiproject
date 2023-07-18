@@ -9,12 +9,11 @@
         <link href="img/favicon.ico" rel="icon">
 
         <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link href="./cssCommon/fontRobo.css" rel="stylesheet">
+
         <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="./cssCommon/cdnjs.cloudflare.com_ajax_libs_font-awesome_5.10.0_css_all.css" rel="stylesheet">
+        <link href="./cssCommon/cdn.jsdelivr.net_npm_bootstrap-icons@1.4.1_font_bootstrap-icons.css" rel="stylesheet">
     
         <!-- Libraries Stylesheet -->
         <link href="./cssWelcome/lib/animate/animate.min.css" rel="stylesheet">
@@ -86,206 +85,180 @@
     <!-- Navbar End -->
     <h1 class="title">CƠ CẤU TỔ CHỨC SATTI P</h1>
     <main>
-        <div class="container">
-          <div class="row1">
-            <div class="col-lg-12 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Kim Felix</span>
-                <p class="job">kim.felix@samsung.com</p>
-                <button>Group Leader</button>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Kim Felix</span>
+              <p class="job">kim.felix@samsung.com</p>
+              <button>Group Leader</button>
             </div>
           </div>
-          
-          <div class="row1">
-            <div class="col-lg-12 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Khuất Mạnh Hoài</span>
-                <p class="job">manh.hoai@samsung.com</p>
-                <button>Part Leader</button>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Trần Viết Kiên</span>
-                <p class="job">viet.kien@samsung.com</p>
-                <button>Software</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Trần Thị An</span>
-                <p class="job">an.tt@samsung.com</p>
-                <button>Innovation-SEV</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Nguyễn Bá Phú</span>
-                <p class="job">ba.phu@samsung.com</p>
-                <button>Triz-SEVT</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Đỗ Trọng Huynh</span>
-                <p class="job">trong.huynh@samsung.com</p>
-                <button>Logistics</button>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Nguyễn Thanh Bình</span>
-                <p class="job">binht.nguyen@samsung.com</p>
-                <button>Robot/AGV</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Nguyễn Xuân Hải</span>
-                <p class="job">hai91.xuan@samsung.com</p>
-                <button>Innovation-SEVT</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Hoàng Thanh Loan</span>
-                <p class="job">thanh.loan@samsung.com</p>
-                <button>Triz-SEV</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Đinh Quang Huy</span>
-                <p class="job">huy.dq@samsung.com</p>
-                <button>CAD/CAM</button>
-              </div>
-            </div>
-          </div>
-          
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Nguyễn Văn Lịch</span>
-                <p class="job">ngv.lich@samsung.com</p>
-                <button>CNC</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Đỗ Hồng Thắm</span>
-                <p class="job">tham.do@samsung.com</p>
-                <button>IE-SEVT</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Vương Thị Thảo</span>
-                <p class="job">thao.vuong@samsung.com</p>
-                <button>IE-SEV</button>
-              </div>
-            </div>
-            
-            {{-- <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Person</span>
-                <p class="job">Job Title</p>
-                <button>Click</button>
-              </div>
-            </div> --}}
-          </div>
-          
-          <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Nguyễn Văn Thi</span>
-                <p class="job">vanthi.ng@samsung.com</p>
-                <button>Automation</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Hoàng Thị Việt Hà</span>
-                <p class="job">ha.htv@samsung.com</p>
-                <button>Coordinator</button>
-              </div>
-            </div>
-            
-            {{-- <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Person</span>
-                <p class="job">Job Title</p>
-                <button>Click</button>
-              </div>
-            </div>
-            
-            <div class="col-lg-3 col-md-6 mb-4">
-              <div class="card">
-                <div class="card-border-top"></div>
-                <div class="img"></div>
-                <span>Person</span>
-                <p class="job">Job Title</p>
-                <button>Click</button>
-              </div>
-            </div>
-          </div> --}}
         </div>
-      </main>
+
+        <div class="row">
+          <div class="col-md-12 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Khuất Mạnh Hoài</span>
+              <p class="job">manh.hoai@samsung.com</p>
+              <button>Part Leader</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Trần Viết Kiên</span>
+              <p class="job">viet.kien@samsung.com</p>
+              <button>Software</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Trần Thị An</span>
+              <p class="job">an.tt@samsung.com</p>
+              <button>Innovation-SEV</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Nguyễn Bá Phú</span>
+              <p class="job">ba.phu@samsung.com</p>
+              <button>Triz-SEVT</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Đỗ Trọng Huynh</span>
+              <p class="job">trong.huynh@samsung.com</p>
+              <button>Logistics</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Nguyễn Thanh Bình</span>
+              <p class="job">binht.nguyen@samsung.com</p>
+              <button>Robot/AGV</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Nguyễn Xuân Hải</span>
+              <p class="job">hai91.xuan@samsung.com</p>
+              <button>Innovation-SEVT</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Hoàng Thanh Loan</span>
+              <p class="job">thanh.loan@samsung.com</p>
+              <button>Triz-SEV</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Đinh Quang Huy</span>
+              <p class="job">huy.dq@samsung.com</p>
+              <button>CAD/CAM</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Nguyễn Văn Lịch</span>
+              <p class="job">ngv.lich@samsung.com</p>
+              <button>CNC</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Đỗ Hồng Thắm</span>
+              <p class="job">tham.do@samsung.com</p>
+              <button>IE-SEVT</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Vương Thị Thảo</span>
+              <p class="job">thao.vuong@samsung.com</p>
+              <button>IE-SEV</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            {{-- Hàng 5 - Cột 4 --}}
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Nguyễn Văn Thi</span>
+              <p class="job">vanthi.ng@samsung.com</p>
+              <button>Automation</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            <div class="card">
+              <div class="card-border-top"></div>
+              <div class="img"></div>
+              <span>Hoàng Thị Việt Hà</span>
+              <p class="job">ha.htv@samsung.com</p>
+              <button>Coordinator</button>
+            </div>
+          </div>
+          <div class="col-md-3 center">
+            {{-- Hàng 6 - Cột 3 --}}
+          </div>
+          <div class="col-md-3 center">
+            {{-- Hàng 6 - Cột 4 --}}
+          </div>
+        </div>
+      </div>
+    
+    
+    
+    
+    </main>
       
       
     
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./cssCommon/js/code.jquery.com_jquery-3.4.1.min.js"></script>
+    <script src="./cssCommon/js/cdn.jsdelivr.net_npm_bootstrap@5.0.0_dist_js_bootstrap.bundle.js"></script>
     <script src="./cssWelcome/lib/wow/wow.min.js"></script>
     <script src="./cssWelcome/lib/easing/easing.min.js"></script>
     <script src="./cssWelcome/lib/waypoints/waypoints.min.js"></script>
